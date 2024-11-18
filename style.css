@@ -28,7 +28,14 @@ body {
     cursor: pointer;
     transition: .2s;
 }
-
+h2.titulo{
+    color: #fff;
+    font-size: 38px;
+    text-align: center;
+}
+h2.ESPECIALIDADES {
+    color: #00FF08;
+}
 /* ESTILO DO CABEÇALHO */
 header {
     padding: 40px 4%;
@@ -112,3 +119,9 @@ section.topo-do-site .flex{
         top: 30px;
     }
 }
+
+/*ESTILO DAS ESPECIALIDADES*/
+section.especialidades{
+    padding: 40px 4%;
+}
+
