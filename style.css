@@ -33,7 +33,7 @@ h2.titulo{
     font-size: 38px;
     text-align: center;
 }
-h2.ESPECIALIDADES {
+h2.especialidades {
     color: #00FF08;
 }
 /* ESTILO DO CABEÇALHO */
@@ -83,6 +83,7 @@ Section.txt-topo-site {
 
 }
 
+
 section.topo-do-site .flex{
     align-items: center;
     justify-content: center;
@@ -107,8 +108,10 @@ section.topo-do-site .flex{
     margin: 40px 0;
 }
 .topo-do-site .img-topo-site img{
+    
     position: relative;
     animation: flutuar 2s ease-in-out infinite alternate;
+    
 }
 
 @keyframes flutuar{
